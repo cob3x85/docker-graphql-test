@@ -28,6 +28,7 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t cob3x85/graphql-action:0.0.2 .
+        docker build -t cob3x85/graphql-action:latest .
 
     - name: Push Docker Image
       run: |
